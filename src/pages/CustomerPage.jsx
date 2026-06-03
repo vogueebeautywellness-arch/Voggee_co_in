@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
-import { 
-  Smartphone, 
-  Download, 
-  Calendar, 
-  Coffee, 
-  Clock, 
-  Check, 
-  ShieldAlert, 
+import {
+  Smartphone,
+  Download,
+  Calendar,
+  Coffee,
+  Clock,
+  Check,
+  ShieldAlert,
   Sparkles,
   ShieldCheck,
   Zap,
@@ -56,26 +56,26 @@ export default function CustomerPage() {
   }, [activeIdx, isHovered]);
   return (
     <div className="min-h-screen text-gray-800 bg-[#f5f0e8] antialiased">
-      
+
       {/* SECTION 1: HERO */}
       <section className="relative overflow-hidden py-16 md:py-24 bg-gradient-to-br from-[#f5f0e8] via-[#fdfcf7] to-[#c9a84c]/10">
         <div className="absolute top-20 right-[-10%] w-96 h-96 rounded-full bg-[#c9a84c]/10 blur-3xl pointer-events-none"></div>
-        
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
+
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <span className="text-[#2d6a2d] font-bold text-xs uppercase tracking-widest bg-[#2d6a2d]/10 px-3 py-1 rounded-full border border-[#2d6a2d]/25">
                 For Customers
               </span>
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#1a4a1a] leading-tight">
-                Premium Salon, <br/>
+                Premium Salon, <br />
                 <span className="text-[#2d6a2d] italic font-normal">At Your Doorstep.</span>
               </h1>
               <p className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium">
                 No travel, no waiting. Certified beauty professionals come to you equipped with high-end tools and sealed mono-dosage product kits.
               </p>
-              
+
               <div className="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
                 <a
                   href="#download-banner"
@@ -105,7 +105,7 @@ export default function CustomerPage() {
       {/* SECTION 2: HOW IT WORKS */}
       <section className="py-16 md:py-24 bg-white border-y border-[#c9a84c]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1a4a1a]">
               How voguee Works
@@ -159,7 +159,7 @@ export default function CustomerPage() {
       {/* SECTION 3: SERVICES AVAILABLE (INFO ONLY) */}
       <section className="py-16 md:py-24 bg-[#f5f0e8]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-[#2d6a2d] font-bold text-xs uppercase tracking-widest bg-[#2d6a2d]/10 px-3 py-1 rounded-full border border-[#2d6a2d]/25">
               Service Catalog
@@ -177,7 +177,7 @@ export default function CustomerPage() {
             <span>← Swipe left/right to view →</span>
           </div>
 
-          <div 
+          <div
             ref={scrollRef}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -202,7 +202,7 @@ export default function CustomerPage() {
                     <h3 className="font-serif text-lg md:text-xl font-bold text-[#1a4a1a] leading-tight">
                       {service.name}
                     </h3>
-                    
+
                     <p className="text-gray-600 text-xs sm:text-sm font-medium leading-relaxed">
                       {service.description}
                     </p>
@@ -226,7 +226,7 @@ export default function CustomerPage() {
 
           {/* Arrow Controls (Mobile Only) */}
           <div className="flex md:hidden justify-center items-center gap-4 mt-6">
-            <button 
+            <button
               onClick={handlePrev}
               className="w-10 h-10 rounded-full bg-white border border-[#c9a84c]/30 flex items-center justify-center text-[#1a4a1a] shadow-xs active:bg-[#f5f0e8]"
             >
@@ -241,7 +241,7 @@ export default function CustomerPage() {
                 />
               ))}
             </div>
-            <button 
+            <button
               onClick={handleNext}
               className="w-10 h-10 rounded-full bg-white border border-[#c9a84c]/30 flex items-center justify-center text-[#1a4a1a] shadow-xs active:bg-[#f5f0e8]"
             >
@@ -264,7 +264,7 @@ export default function CustomerPage() {
       {/* SECTION 4: SAFETY PROMISE */}
       <section className="py-16 md:py-24 bg-white border-t border-[#c9a84c]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-[#2d6a2d] font-bold text-xs uppercase tracking-widest bg-[#2d6a2d]/10 px-3 py-1 rounded-full border border-[#2d6a2d]/25">
               Hygiene Standard
@@ -321,25 +321,25 @@ export default function CustomerPage() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
+
             {/* Content left */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <span className="bg-[#c9a84c] text-[#1a4a1a] text-2xs font-extrabold uppercase px-3 py-1 rounded-full tracking-wider">
                 voguee Mobile App
               </span>
-              
+
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-white animate-fade-in">
-                Book in Seconds. <br/>
+                Book in Seconds. <br />
                 <span className="text-[#c9a84c] italic font-normal">Download the voguee App</span>
               </h2>
-              
+
               <p className="text-gray-300 text-sm sm:text-base max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
                 Get access to live professional tracking, simple 1-click rescheduling, app-only discounts, and premium pre-bridal booking options.
               </p>
 
               {/* Features grid */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto lg:mx-0 text-left pt-2 text-xs sm:text-sm">
-                
+
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full bg-[#2d6a2d] flex items-center justify-center border border-[#c9a84c]/20">
                     <MapPin size={14} className="text-[#c9a84c]" />
@@ -379,7 +379,7 @@ export default function CustomerPage() {
                   <Smartphone size={18} />
                   <span>Download App (Android)</span>
                 </a>
-                
+
                 {/* QR Code Placeholder */}
                 <div className="flex items-center gap-3 bg-white/5 border border-white/10 p-3 rounded-2xl">
                   <div className="w-16 h-16 bg-white p-1 rounded-lg flex items-center justify-center shadow-inner shrink-0">
@@ -416,7 +416,7 @@ export default function CustomerPage() {
               <div className="relative w-full max-w-[280px]">
                 <div className="absolute inset-0 bg-[#c9a84c]/20 rounded-3xl rotate-6 scale-102 -z-10 shadow-lg"></div>
                 <img
-                  src="/voguee_app_mockup.png"
+                  src="/voggee_app_mockup.png"
                   alt="voguee App Mockup"
                   className="w-full h-auto rounded-3xl object-cover shadow-2xl border-4 border-white"
                 />

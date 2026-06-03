@@ -1,11 +1,11 @@
-import { 
-  Briefcase, 
-  DollarSign, 
-  Calendar, 
-  GraduationCap, 
-  ShieldCheck, 
-  Smartphone, 
-  Award, 
+import {
+  Briefcase,
+  DollarSign,
+  Calendar,
+  GraduationCap,
+  ShieldCheck,
+  Smartphone,
+  Award,
   Star,
   Download,
   FileText,
@@ -24,7 +24,7 @@ export default function PartnerPage() {
 
   return (
     <div className="min-h-screen text-gray-800 bg-[#f5f0e8] antialiased">
-      
+
       {/* SECTION 1: HERO */}
       <section className="relative overflow-hidden py-16 md:py-24 bg-gradient-to-br from-[#f5f0e8] via-[#fdfcf7] to-[#c9a84c]/10">
         <div className="absolute top-20 right-[-10%] w-96 h-96 rounded-full bg-[#c9a84c]/10 blur-3xl pointer-events-none"></div>
@@ -32,20 +32,20 @@ export default function PartnerPage() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
+
             {/* Hero Left Content */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <span className="text-[#2d6a2d] font-bold text-xs uppercase tracking-widest bg-[#2d6a2d]/10 px-3 py-1 rounded-full border border-[#2d6a2d]/25">
                 Join our Network
               </span>
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#1a4a1a] leading-tight">
-                Grow Your Career <br/>
+                Grow Your Career <br />
                 <span className="text-[#2d6a2d] italic font-normal">with voguee.</span>
               </h1>
               <p className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium">
                 Join India's fastest-growing home salon network. Earn higher margins, enjoy complete work schedule flexibility, and serve premium clients.
               </p>
-              
+
               <div className="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
                 <a
                   href="#partner-download-section"
@@ -63,7 +63,7 @@ export default function PartnerPage() {
               <div className="relative w-full max-w-[420px]">
                 {/* Decorative Frame */}
                 <div className="absolute inset-0 bg-[#c9a84c]/20 rounded-3xl rotate-6 scale-102 -z-10 shadow-lg"></div>
-                
+
                 {/* Professional Therapist Image Card */}
                 <div className="bg-[#1a4a1a] rounded-3xl p-8 border-4 border-white shadow-2xl text-white space-y-6">
                   <div className="w-16 h-16 rounded-2xl bg-[#c9a84c]/20 flex items-center justify-center border border-[#c9a84c]/30">
@@ -90,7 +90,7 @@ export default function PartnerPage() {
       {/* SECTION 2: WHY JOIN voguee */}
       <section className="py-16 md:py-24 bg-white border-y border-[#c9a84c]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1a4a1a]">
               Benefits of Joining voguee
@@ -152,7 +152,7 @@ export default function PartnerPage() {
       {/* SECTION 3: HOW IT WORKS FOR PARTNERS */}
       <section className="py-16 md:py-24 bg-[#f5f0e8]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1a4a1a]">
               Three Steps to Start Earning
@@ -204,7 +204,7 @@ export default function PartnerPage() {
       <section className="bg-[#1a4a1a] text-[#f5f0e8] py-12 border-y border-[#c9a84c]/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            
+
             <div className="space-y-1">
               <div className="text-3xl sm:text-4xl font-extrabold text-[#c9a84c]">2,500+</div>
               <div className="text-xs font-bold text-gray-300 uppercase tracking-widest">Active Therapists</div>
@@ -230,25 +230,25 @@ export default function PartnerPage() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
+
             {/* Content left */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <span className="bg-[#c9a84c] text-[#1a4a1a] text-2xs font-extrabold uppercase px-3 py-1 rounded-full tracking-wider">
                 voguee Partner App
               </span>
-              
+
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-white animate-fade-in">
-                Register in Minutes. <br/>
+                Register in Minutes. <br />
                 <span className="text-[#c9a84c] italic font-normal">Download the Partner App</span>
               </h2>
-              
+
               <p className="text-gray-300 text-sm sm:text-base max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
                 We have moved registration completely to the app for a faster onboarding experience. Upload documents and manage your verification status directly from your phone.
               </p>
 
               {/* Features grid */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto lg:mx-0 text-left pt-2 text-xs sm:text-sm">
-                
+
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full bg-[#2d6a2d] flex items-center justify-center border border-[#c9a84c]/20">
                     <Smartphone size={14} className="text-[#c9a84c]" />
@@ -288,7 +288,7 @@ export default function PartnerPage() {
                   <Smartphone size={18} />
                   <span>Download Partner App (Android)</span>
                 </a>
-                
+
                 {/* QR Code Placeholder */}
                 <div className="flex items-center gap-3 bg-white/5 border border-white/10 p-3 rounded-2xl">
                   <div className="w-16 h-16 bg-white p-1 rounded-lg flex items-center justify-center shadow-inner shrink-0">
@@ -324,7 +324,7 @@ export default function PartnerPage() {
               <div className="relative w-full max-w-[280px]">
                 <div className="absolute inset-0 bg-[#c9a84c]/20 rounded-3xl rotate-6 scale-102 -z-10 shadow-lg"></div>
                 <img
-                  src="/voguee_app_mockup.png"
+                  src="/voggee_app_mockup.png"
                   alt="voguee Partner App Mockup"
                   className="w-full h-auto rounded-3xl object-cover shadow-2xl border-4 border-white"
                 />
@@ -338,7 +338,7 @@ export default function PartnerPage() {
       {/* SECTION 6: PARTNER TESTIMONIALS */}
       <section className="py-16 md:py-24 bg-[#f5f0e8] border-t border-[#c9a84c]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-[#2d6a2d] font-bold text-xs uppercase tracking-widest bg-[#2d6a2d]/10 px-3 py-1 rounded-full border border-[#2d6a2d]/25">
               Success Stories
