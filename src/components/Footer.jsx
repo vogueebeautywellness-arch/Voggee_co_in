@@ -31,12 +31,7 @@ export default function Footer() {
           {/* Logo and Tagline */}
           <div className="col-span-1 md:col-span-5 space-y-4">
             <Link to="/" onClick={scrollToTop} className="flex items-center gap-2">
-              <div className="bg-[#2d6a2d] text-[#f5f0e8] p-2 rounded-xl flex items-center justify-center border border-[#c9a84c]/30 shadow-md">
-                <Flower2 size={24} className="text-[#c9a84c]" />
-              </div>
-              <span className="font-serif text-3xl font-extrabold tracking-tight text-white">
-                Voggee<span className="text-[#c9a84c]">.</span>
-              </span>
+              <img src="/navbar.png" alt="Voggee Logo" className="h-12 w-auto" />
             </Link>
             <p className="text-gray-300 text-sm max-w-sm leading-relaxed">
               Luxury Salon Services, Delivered at Home. Experience premium grooming with background-checked therapists and single-use sealed kits.

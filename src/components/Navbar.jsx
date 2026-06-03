@@ -43,12 +43,7 @@ export default function Navbar() {
           
           {/* Logo */}
           <Link to="/" onClick={scrollToTop} className="flex items-center gap-2">
-            <div className="bg-[#1a4a1a] text-[#f5f0e8] p-2 rounded-xl flex items-center justify-center shadow-md">
-              <Flower2 size={24} className="text-[#c9a84c]" />
-            </div>
-            <span className="font-serif text-3xl font-extrabold text-[#1a4a1a] tracking-tight">
-              Voggee<span className="text-[#c9a84c]">.</span>
-            </span>
+            <img src="/Logo.png" alt="Voggee Logo" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation Links */}
