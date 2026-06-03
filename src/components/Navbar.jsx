@@ -20,10 +20,9 @@ export default function Navbar() {
   };
 
   const navLinkClass = ({ isActive }) =>
-    `transition-colors duration-200 font-medium ${
-      isActive
-        ? 'text-[#2d6a2d] border-b-2 border-[#2d6a2d]'
-        : 'text-gray-700 hover:text-[#2d6a2d]'
+    `transition-colors duration-200 font-medium ${isActive
+      ? 'text-[#2d6a2d] border-b-2 border-[#2d6a2d]'
+      : 'text-gray-700 hover:text-[#2d6a2d]'
     } pb-1`;
 
   const scrollToTop = () => {
@@ -40,10 +39,10 @@ export default function Navbar() {
       {/* Main Navbar */}
       <header className="sticky top-0 z-40 bg-[#f5f0e8]/90 backdrop-blur-md border-b border-[#c9a84c]/20 shadow-sm transition-all">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
-          
+
           {/* Logo */}
           <Link to="/" onClick={scrollToTop} className="flex items-center gap-2">
-            <img src="/Logo.png" alt="Voggee Logo" className="h-12 w-auto" />
+            <img src="/navbar.png" alt="voguee Logo" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Navigation Links */}
@@ -120,8 +119,7 @@ export default function Navbar() {
                   scrollToTop();
                 }}
                 className={({ isActive }) =>
-                  `px-3 py-2 rounded-lg hover:bg-[#c9a84c]/10 ${
-                    isActive ? 'text-[#2d6a2d] bg-[#c9a84c]/10' : ''
+                  `px-3 py-2 rounded-lg hover:bg-[#c9a84c]/10 ${isActive ? 'text-[#2d6a2d] bg-[#c9a84c]/10' : ''
                   }`
                 }
               >
@@ -131,8 +129,7 @@ export default function Navbar() {
                 to="/customers"
                 onClick={() => setMobileMenuOpen(false)}
                 className={({ isActive }) =>
-                  `px-3 py-2 rounded-lg hover:bg-[#c9a84c]/10 ${
-                    isActive ? 'text-[#2d6a2d] bg-[#c9a84c]/10' : ''
+                  `px-3 py-2 rounded-lg hover:bg-[#c9a84c]/10 ${isActive ? 'text-[#2d6a2d] bg-[#c9a84c]/10' : ''
                   }`
                 }
               >
@@ -142,8 +139,7 @@ export default function Navbar() {
                 to="/partners"
                 onClick={() => setMobileMenuOpen(false)}
                 className={({ isActive }) =>
-                  `px-3 py-2 rounded-lg hover:bg-[#c9a84c]/10 ${
-                    isActive ? 'text-[#2d6a2d] bg-[#c9a84c]/10' : ''
+                  `px-3 py-2 rounded-lg hover:bg-[#c9a84c]/10 ${isActive ? 'text-[#2d6a2d] bg-[#c9a84c]/10' : ''
                   }`
                 }
               >
@@ -153,8 +149,7 @@ export default function Navbar() {
                 to="/safety"
                 onClick={() => setMobileMenuOpen(false)}
                 className={({ isActive }) =>
-                  `px-3 py-2 rounded-lg hover:bg-[#c9a84c]/10 ${
-                    isActive ? 'text-[#2d6a2d] bg-[#c9a84c]/10' : ''
+                  `px-3 py-2 rounded-lg hover:bg-[#c9a84c]/10 ${isActive ? 'text-[#2d6a2d] bg-[#c9a84c]/10' : ''
                   }`
                 }
               >
@@ -173,7 +168,7 @@ export default function Navbar() {
                 FAQs
               </button>
             </div>
-            
+
             {/* Mobile CTA */}
             <div className="pt-2 border-t border-[#c9a84c]/20">
               <a

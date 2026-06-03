@@ -24,7 +24,7 @@ export default function SafetyPage() {
           </div>
           
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#1a4a1a] leading-tight">
-            The Voggee <br/>
+            The voguee <br/>
             <span className="text-[#2d6a2d] italic font-normal">Safety Shield.</span>
           </h1>
           

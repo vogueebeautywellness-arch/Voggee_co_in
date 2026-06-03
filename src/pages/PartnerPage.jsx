@@ -40,7 +40,7 @@ export default function PartnerPage() {
               </span>
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#1a4a1a] leading-tight">
                 Grow Your Career <br/>
-                <span className="text-[#2d6a2d] italic font-normal">with Voggee.</span>
+                <span className="text-[#2d6a2d] italic font-normal">with voguee.</span>
               </h1>
               <p className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium">
                 Join India's fastest-growing home salon network. Earn higher margins, enjoy complete work schedule flexibility, and serve premium clients.
@@ -69,13 +69,13 @@ export default function PartnerPage() {
                   <div className="w-16 h-16 rounded-2xl bg-[#c9a84c]/20 flex items-center justify-center border border-[#c9a84c]/30">
                     <Award size={32} className="text-[#c9a84c]" />
                   </div>
-                  <h3 className="font-serif text-2xl font-bold">Voggee Academy Certified</h3>
+                  <h3 className="font-serif text-2xl font-bold">voguee Academy Certified</h3>
                   <p className="text-gray-300 text-sm font-medium leading-relaxed">
-                    "Every professional joining Voggee undergoes verified quality checks and training to guarantee premium client safety and high service quality."
+                    "Every professional joining voguee undergoes verified quality checks and training to guarantee premium client safety and high service quality."
                   </p>
                   <div className="flex items-center gap-3 pt-4 border-t border-[#c9a84c]/20">
                     <div className="text-xs">
-                      <div className="font-bold text-white">Voggee Partnership Program</div>
+                      <div className="font-bold text-white">voguee Partnership Program</div>
                       <div className="text-gray-400">Join 2,500+ happy beauticians</div>
                     </div>
                   </div>
@@ -87,13 +87,13 @@ export default function PartnerPage() {
         </div>
       </section>
 
-      {/* SECTION 2: WHY JOIN VOGGEE */}
+      {/* SECTION 2: WHY JOIN voguee */}
       <section className="py-16 md:py-24 bg-white border-y border-[#c9a84c]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1a4a1a]">
-              Benefits of Joining Voggee
+              Benefits of Joining voguee
             </h2>
             <p className="text-gray-500 mt-3 text-sm sm:text-base font-medium">
               We empower our therapists to succeed by providing unmatched financial benefits and continuous learning.
@@ -169,7 +169,7 @@ export default function PartnerPage() {
                 <div className="text-xs font-bold text-[#c9a84c] tracking-widest uppercase mb-2">Step 01</div>
                 <h3 className="font-serif text-xl font-bold text-[#1a4a1a] mb-3">Download Partner App</h3>
                 <p className="text-sm text-gray-600 font-medium leading-relaxed">
-                  Get the Voggee Partner App on your Android device to register your profile.
+                  Get the voguee Partner App on your Android device to register your profile.
                 </p>
               </div>
             </div>
@@ -234,7 +234,7 @@ export default function PartnerPage() {
             {/* Content left */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <span className="bg-[#c9a84c] text-[#1a4a1a] text-2xs font-extrabold uppercase px-3 py-1 rounded-full tracking-wider">
-                Voggee Partner App
+                voguee Partner App
               </span>
               
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-white animate-fade-in">
@@ -324,8 +324,8 @@ export default function PartnerPage() {
               <div className="relative w-full max-w-[280px]">
                 <div className="absolute inset-0 bg-[#c9a84c]/20 rounded-3xl rotate-6 scale-102 -z-10 shadow-lg"></div>
                 <img
-                  src="/voggee_app_mockup.png"
-                  alt="Voggee Partner App Mockup"
+                  src="/voguee_app_mockup.png"
+                  alt="voguee Partner App Mockup"
                   className="w-full h-auto rounded-3xl object-cover shadow-2xl border-4 border-white"
                 />
               </div>
@@ -360,7 +360,7 @@ export default function PartnerPage() {
                 ))}
               </div>
               <p className="text-gray-600 text-sm italic font-medium leading-relaxed">
-                "Joining Voggee was the best decision for my career. I downloaded the Partner App, completed my registration, and uploaded my certification. Everything was so fast. Now I choose my own hours and get paid daily."
+                "Joining voguee was the best decision for my career. I downloaded the Partner App, completed my registration, and uploaded my certification. Everything was so fast. Now I choose my own hours and get paid daily."
               </p>
               <div className="flex items-center gap-3 pt-3 border-t border-gray-100">
                 <div className="w-10 h-10 rounded-full bg-[#c9a84c]/20 flex items-center justify-center font-bold text-[#1a4a1a] text-xs">

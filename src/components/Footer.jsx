@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Logo and Tagline */}
           <div className="col-span-1 md:col-span-5 space-y-4">
             <Link to="/" onClick={scrollToTop} className="flex items-center gap-2">
-              <img src="/navbar.png" alt="Voggee Logo" className="h-12 w-auto" />
+              <img src="/navbar.png" alt="voguee Logo" className="h-12 w-auto" />
             </Link>
             <p className="text-gray-300 text-sm max-w-sm leading-relaxed">
               Luxury Salon Services, Delivered at Home. Experience premium grooming with background-checked therapists and single-use sealed kits.
@@ -88,9 +88,7 @@ export default function Footer() {
                 <a href="mailto:[EMAIL_ADDRESS]" className="hover:text-[#c9a84c] transition-colors">vogueebeautywellness@gmail.com</a>
               </li>
               <li className="text-xs text-gray-400 font-normal leading-relaxed pt-1">
-                Voggee Corporate Office: <br />
-                Suite 402, Green Oasis Towers, <br />
-                Koramangala, Bangalore - 560034
+                1106, Alexander Tower, Sai World Empire, opposite Swapnapoorti Mhada colony, valley Shilp Road, Navi Mumbai :- 410210. Sector 36, kharghar.
               </li>
             </ul>
           </div>
@@ -99,7 +97,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
-          <span>© 2026 Voggee Wellness Pvt. Ltd. All rights reserved.</span>
+          <span>© 2026 voguee Beauty & Wellness Pvt. Ltd. All rights reserved.</span>
           <div className="flex gap-6">
             <a href="#" className="hover:text-[#c9a84c] transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-[#c9a84c] transition-colors">Terms of Service</a>

@@ -175,16 +175,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SECTION 3: WHY VOGGEE */}
+      {/* SECTION 3: WHY voguee */}
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-[#2d6a2d] font-bold text-xs uppercase tracking-widest bg-[#2d6a2d]/10 px-3 py-1 rounded-full border border-[#2d6a2d]/25">
-              The Voggee Standard
+              The voguee Standard
             </span>
             <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1a4a1a] mt-3">
-              Why Choose Voggee?
+              Why Choose voguee?
             </h2>
             <p className="text-gray-500 mt-3 text-sm sm:text-base leading-relaxed">
               We have elevated home wellness by removing standard salon challenges and ensuring strict hygiene protocols.
@@ -333,7 +333,7 @@ export default function HomePage() {
           </div>
           <h3 className="font-serif text-2xl sm:text-3xl font-extrabold text-[#1a4a1a]">Are you a Customer?</h3>
           <p className="text-gray-600 max-w-sm text-sm sm:text-base font-medium leading-relaxed">
-            Get salon-quality treatments at the comfort of your home. Download the Voggee App on Google Play Store.
+            Get salon-quality treatments at the comfort of your home. Download the voguee App on Google Play Store.
           </p>
           <Link 
             to="/customers"
@@ -374,7 +374,7 @@ export default function HomePage() {
               Loved by 1M+ Customers
             </h2>
             <p className="text-gray-500 mt-2 text-sm sm:text-base leading-relaxed">
-              Read how Voggee has transformed home grooming for people across India.
+              Read how voguee has transformed home grooming for people across India.
             </p>
           </div>
 

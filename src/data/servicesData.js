@@ -284,7 +284,7 @@ export const services = [
 export const packages = [
   {
     id: "pkg-bride-glow",
-    name: "Voggee Pre-Bridal Radiance Express",
+    name: "voguee Pre-Bridal Radiance Express",
     price: 2499,
     originalPrice: 4299,
     discount: "42% OFF",
@@ -329,7 +329,7 @@ export const testimonials = [
     name: "Aishwarya Sen",
     city: "Mumbai",
     rating: 5,
-    text: "Voggee has completely changed how I salon! The beautician arrived exactly on time, set up her folding table, and was extremely professional. The O3+ facial was wonderful, and the fact that everything was disposable and in sealed single-use kits made me feel very safe.",
+    text: "voguee has completely changed how I salon! The beautician arrived exactly on time, set up her folding table, and was extremely professional. The O3+ facial was wonderful, and the fact that everything was disposable and in sealed single-use kits made me feel very safe.",
     avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150&h=150"
   },
   {
@@ -352,8 +352,8 @@ export const testimonials = [
 
 export const faqs = [
   {
-    question: "How does Voggee work?",
-    answer: "Voggee is an at-home salon booking service. You choose the services you want on our website or Play Store app, select a convenient date and time slot, enter your address, and our certified beauty professional will come to your home with all the necessary tools and products to pamper you!"
+    question: "How does voguee work?",
+    answer: "voguee is an at-home salon booking service. You choose the services you want on our website or Play Store app, select a convenient date and time slot, enter your address, and our certified beauty professional will come to your home with all the necessary tools and products to pamper you!"
   },
   {
     question: "Do I need to arrange anything at home?",

@@ -91,8 +91,8 @@ export default function CustomerPage() {
               <div className="relative w-full max-w-[340px]">
                 <div className="absolute inset-0 bg-[#c9a84c]/20 rounded-3xl -rotate-6 scale-102 -z-10 shadow-lg"></div>
                 <img
-                  src="/voggee_app_mockup.png"
-                  alt="Voggee Mobile App Mockup"
+                  src="/voguee_app_mockup.png"
+                  alt="voguee Mobile App Mockup"
                   className="w-full h-auto rounded-3xl object-cover shadow-2xl border-4 border-white"
                 />
               </div>
@@ -108,7 +108,7 @@ export default function CustomerPage() {
           
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1a4a1a]">
-              How Voggee Works
+              How voguee Works
             </h2>
             <p className="text-gray-500 mt-3 text-sm sm:text-base font-medium">
               Get pampered in 3 simple steps without leaving your living room.
@@ -122,7 +122,7 @@ export default function CustomerPage() {
                 <Smartphone size={28} />
                 <span className="absolute -top-2 -right-2 bg-[#2d6a2d] text-white w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold font-mono">1</span>
               </div>
-              <h3 className="font-serif text-xl font-bold text-[#1a4a1a]">Download the Voggee App</h3>
+              <h3 className="font-serif text-xl font-bold text-[#1a4a1a]">Download the voguee App</h3>
               <p className="text-sm text-gray-500 max-w-xs font-medium">
                 Get our free mobile app for Android and register in seconds with your phone number.
               </p>
@@ -270,7 +270,7 @@ export default function CustomerPage() {
               Hygiene Standard
             </span>
             <h2 className="font-serif text-3xl md:text-5xl font-bold text-[#1a4a1a] mt-3">
-              The Voggee Safety Promise
+              The voguee Safety Promise
             </h2>
             <p className="text-gray-500 mt-2 text-sm sm:text-base leading-relaxed">
               We care about your hygiene. We have completely rewritten standard salon safety rules.
@@ -325,12 +325,12 @@ export default function CustomerPage() {
             {/* Content left */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <span className="bg-[#c9a84c] text-[#1a4a1a] text-2xs font-extrabold uppercase px-3 py-1 rounded-full tracking-wider">
-                Voggee Mobile App
+                voguee Mobile App
               </span>
               
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-white animate-fade-in">
                 Book in Seconds. <br/>
-                <span className="text-[#c9a84c] italic font-normal">Download the Voggee App</span>
+                <span className="text-[#c9a84c] italic font-normal">Download the voguee App</span>
               </h2>
               
               <p className="text-gray-300 text-sm sm:text-base max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">
@@ -416,8 +416,8 @@ export default function CustomerPage() {
               <div className="relative w-full max-w-[280px]">
                 <div className="absolute inset-0 bg-[#c9a84c]/20 rounded-3xl rotate-6 scale-102 -z-10 shadow-lg"></div>
                 <img
-                  src="/voggee_app_mockup.png"
-                  alt="Voggee App Mockup"
+                  src="/voguee_app_mockup.png"
+                  alt="voguee App Mockup"
                   className="w-full h-auto rounded-3xl object-cover shadow-2xl border-4 border-white"
                 />
               </div>
