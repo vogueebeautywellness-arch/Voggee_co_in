@@ -72,7 +72,7 @@ const sections = [
   },
   {
     title: '11. Governing Law',
-    content: 'These Terms are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in Navi Mumbai, Maharashtra.',
+    content: 'These Terms are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in Mumbai, Maharashtra.',
   },
   {
     title: '12. Contact Us',

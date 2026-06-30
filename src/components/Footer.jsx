@@ -91,7 +91,7 @@ export default function Footer() {
                 <a href="mailto:[EMAIL_ADDRESS]" className="hover:text-[#c9a84c] transition-colors">vogueebeautywellness@gmail.com</a>
               </li>
               <li className="text-xs text-gray-400 font-normal leading-relaxed pt-1">
-                1106, Alexander Tower, Sai World Empire, opposite Swapnapoorti Mhada colony, valley Shilp Road, Navi Mumbai :- 410210. Sector 36, kharghar.
+                7, Grd Flr, 65, Banatwala Building, Nagdevi, Mumbai - 400003, India.
               </li>
             </ul>
           </div>

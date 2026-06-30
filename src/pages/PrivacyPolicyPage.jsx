@@ -127,7 +127,7 @@ export default function PrivacyPolicyPage() {
               {section.contact && (
                 <div className="text-gray-700 font-medium leading-relaxed space-y-1">
                   <p><strong>voguee Beauty & Wellness Pvt. Ltd.</strong></p>
-                  <p>1106, Alexander Tower, Sai World Empire, opposite Swapnapoorti Mhada colony, valley Shilp Road, Navi Mumbai – 410210, Sector 36, Kharghar.</p>
+                  <p>7, Grd Flr, 65, Banatwala Building, Nagdevi, Mumbai - 400003, India.</p>
                   <p>
                     Email:{' '}
                     <a href="mailto:support@voguee.co.in" className="text-[#2d6a2d] hover:text-[#c9a84c] font-semibold transition-colors">
