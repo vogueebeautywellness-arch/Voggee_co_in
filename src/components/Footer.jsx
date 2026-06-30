@@ -95,13 +95,19 @@ export default function Footer() {
                 <div className="flex gap-3">
                   <MapPin size={16} className="text-[#c9a84c] flex-shrink-0 mt-0.5" />
                   <p className="text-xs text-gray-400 font-normal leading-relaxed">
-                    <span className="text-gray-300 font-semibold">1.</span> 9th Floor, City R Club, Runwal Garden, Dombivli, Bhadra Nagar, Kalyan, Maharashtra 421204
+                    <span className="text-gray-300 font-semibold">1.</span> 7, Grd Flr, 65, Banatwala Building, Nagdevi, Mumbai - 400003, India
                   </p>
                 </div>
                 <div className="flex gap-3">
                   <MapPin size={16} className="text-[#c9a84c] flex-shrink-0 mt-0.5" />
                   <p className="text-xs text-gray-400 font-normal leading-relaxed">
-                    <span className="text-gray-300 font-semibold">2.</span> Ground Floor, Ladkabai Nanji Chawl, Shop No. 115, Dr Mascarenhas Rd, Anjeer Wadi, Mazgaon, Mumbai, Maharashtra 400010
+                    <span className="text-gray-300 font-semibold">2.</span> 9th Floor, City R Club, Runwal Garden, Dombivli, Bhadra Nagar, Kalyan, Maharashtra 421204
+                  </p>
+                </div>
+                <div className="flex gap-3">
+                  <MapPin size={16} className="text-[#c9a84c] flex-shrink-0 mt-0.5" />
+                  <p className="text-xs text-gray-400 font-normal leading-relaxed">
+                    <span className="text-gray-300 font-semibold">3.</span> Ground Floor, Ladkabai Nanji Chawl, Shop No. 115, Dr Mascarenhas Rd, Anjeer Wadi, Mazgaon, Mumbai, Maharashtra 400010
                   </p>
                 </div>
               </li>

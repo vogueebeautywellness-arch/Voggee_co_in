@@ -129,8 +129,9 @@ export default function PrivacyPolicyPage() {
                   <p><strong>voguee Beauty & Wellness Pvt. Ltd.</strong></p>
                   <div>
                     <p className="font-semibold text-[#1a4a1a] mb-1">Shop Address</p>
-                    <p><strong>1.</strong> 9th Floor, City R Club, Runwal Garden, Dombivli, Bhadra Nagar, Kalyan, Maharashtra 421204</p>
-                    <p className="mt-2"><strong>2.</strong> Ground Floor, Ladkabai Nanji Chawl, Shop No. 115, Dr Mascarenhas Rd, Anjeer Wadi, Mazgaon, Mumbai, Maharashtra 400010</p>
+                    <p><strong>1.</strong> 7, Grd Flr, 65, Banatwala Building, Nagdevi, Mumbai - 400003, India</p>
+                    <p className="mt-2"><strong>2.</strong> 9th Floor, City R Club, Runwal Garden, Dombivli, Bhadra Nagar, Kalyan, Maharashtra 421204</p>
+                    <p className="mt-2"><strong>3.</strong> Ground Floor, Ladkabai Nanji Chawl, Shop No. 115, Dr Mascarenhas Rd, Anjeer Wadi, Mazgaon, Mumbai, Maharashtra 400010</p>
                   </div>
                   <p>
                     Email:{' '}
