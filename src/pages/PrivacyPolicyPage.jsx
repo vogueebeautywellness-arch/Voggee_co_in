@@ -12,7 +12,7 @@ const sections = [
     content: null,
     list: [
       'Personal information: name, phone number, email address, and profile photo.',
-      'Location data: delivery/service address and GPS location (with your permission) to assign therapists.',
+      'Location data: delivery/service address and GPS location (with your permission) to assign hairstylist, beautician, therapist & artist.',
       'Booking information: service history, preferences, ratings, and reviews.',
       'Payment information: transaction records processed through secure third-party payment gateways. We do not store full card details on our servers.',
       'Device information: device type, operating system, app version, and push notification tokens.',
@@ -125,9 +125,13 @@ export default function PrivacyPolicyPage() {
                 <p className="text-gray-700 font-medium leading-relaxed mt-3">{section.footer}</p>
               )}
               {section.contact && (
-                <div className="text-gray-700 font-medium leading-relaxed space-y-1">
+                <div className="text-gray-700 font-medium leading-relaxed space-y-3">
                   <p><strong>voguee Beauty & Wellness Pvt. Ltd.</strong></p>
-                  <p>7, Grd Flr, 65, Banatwala Building, Nagdevi, Mumbai - 400003, India.</p>
+                  <div>
+                    <p className="font-semibold text-[#1a4a1a] mb-1">Shop Address</p>
+                    <p><strong>1.</strong> 9th Floor, City R Club, Runwal Garden, Dombivli, Bhadra Nagar, Kalyan, Maharashtra 421204</p>
+                    <p className="mt-2"><strong>2.</strong> Ground Floor, Ladkabai Nanji Chawl, Shop No. 115, Dr Mascarenhas Rd, Anjeer Wadi, Mazgaon, Mumbai, Maharashtra 400010</p>
+                  </div>
                   <p>
                     Email:{' '}
                     <a href="mailto:support@voguee.co.in" className="text-[#2d6a2d] hover:text-[#c9a84c] font-semibold transition-colors">

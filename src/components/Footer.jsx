@@ -1,5 +1,5 @@
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { Flower2, Facebook, Instagram, Twitter, Linkedin, Mail, Phone } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -80,18 +80,30 @@ export default function Footer() {
 
           {/* Contact Details */}
           <div className="col-span-1 md:col-span-4 space-y-4">
-            <h4 className="font-serif text-lg font-bold text-white border-b border-[#c9a84c]/20 pb-2">Get in Touch</h4>
+            <h4 className="font-serif text-lg font-bold text-white border-b border-[#c9a84c]/20 pb-2">Contact Us</h4>
             <ul className="space-y-3 text-sm text-gray-300 font-semibold">
               <li className="flex items-center gap-3">
-                <Phone size={16} className="text-[#c9a84c]" />
-                <a href="tel:+919876543210" className="hover:text-[#c9a84c] transition-colors">+91 7506176999</a>
+                <Phone size={16} className="text-[#c9a84c] flex-shrink-0" />
+                <a href="tel:+917506176999" className="hover:text-[#c9a84c] transition-colors">+91 7506176999</a>
               </li>
               <li className="flex items-center gap-3">
-                <Mail size={16} className="text-[#c9a84c]" />
-                <a href="mailto:[EMAIL_ADDRESS]" className="hover:text-[#c9a84c] transition-colors">vogueebeautywellness@gmail.com</a>
+                <Mail size={16} className="text-[#c9a84c] flex-shrink-0" />
+                <a href="mailto:vogueebeautywellness@gmail.com" className="hover:text-[#c9a84c] transition-colors">vogueebeautywellness@gmail.com</a>
               </li>
-              <li className="text-xs text-gray-400 font-normal leading-relaxed pt-1">
-                7, Grd Flr, 65, Banatwala Building, Nagdevi, Mumbai - 400003, India.
+              <li className="pt-2 space-y-3">
+                <p className="text-xs text-[#c9a84c] font-bold uppercase tracking-wide">Shop Address</p>
+                <div className="flex gap-3">
+                  <MapPin size={16} className="text-[#c9a84c] flex-shrink-0 mt-0.5" />
+                  <p className="text-xs text-gray-400 font-normal leading-relaxed">
+                    <span className="text-gray-300 font-semibold">1.</span> 9th Floor, City R Club, Runwal Garden, Dombivli, Bhadra Nagar, Kalyan, Maharashtra 421204
+                  </p>
+                </div>
+                <div className="flex gap-3">
+                  <MapPin size={16} className="text-[#c9a84c] flex-shrink-0 mt-0.5" />
+                  <p className="text-xs text-gray-400 font-normal leading-relaxed">
+                    <span className="text-gray-300 font-semibold">2.</span> Ground Floor, Ladkabai Nanji Chawl, Shop No. 115, Dr Mascarenhas Rd, Anjeer Wadi, Mazgaon, Mumbai, Maharashtra 400010
+                  </p>
+                </div>
               </li>
             </ul>
           </div>
