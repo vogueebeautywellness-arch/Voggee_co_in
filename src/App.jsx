@@ -5,6 +5,9 @@ import HomePage from './pages/HomePage';
 import CustomerPage from './pages/CustomerPage';
 import PartnerPage from './pages/PartnerPage';
 import SafetyPage from './pages/SafetyPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsPage from './pages/TermsPage';
+import DeleteAccountPage from './pages/DeleteAccountPage';
 
 export default function App() {
   return (
@@ -21,6 +24,9 @@ export default function App() {
             <Route path="/customers" element={<CustomerPage />} />
             <Route path="/partners" element={<PartnerPage />} />
             <Route path="/safety" element={<SafetyPage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+            <Route path="/terms" element={<TermsPage />} />
+            <Route path="/delete-account" element={<DeleteAccountPage />} />
             {/* Fallback routing */}
             <Route path="*" element={<HomePage />} />
           </Routes>

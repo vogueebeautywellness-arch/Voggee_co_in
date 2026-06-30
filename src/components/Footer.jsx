@@ -72,6 +72,9 @@ export default function Footer() {
               <li>
                 <button onClick={() => handleHashLinkClick('faq-section')} className="hover:text-[#c9a84c] transition-colors cursor-pointer text-left font-semibold">FAQs</button>
               </li>
+              <li>
+                <Link to="/delete-account" className="hover:text-[#c9a84c] transition-colors">Delete Account</Link>
+              </li>
             </ul>
           </div>
 
@@ -98,9 +101,10 @@ export default function Footer() {
         {/* Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
           <span>© 2026 voguee Beauty & Wellness Pvt. Ltd. All rights reserved.</span>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-[#c9a84c] transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-[#c9a84c] transition-colors">Terms of Service</a>
+          <div className="flex flex-wrap justify-center sm:justify-end gap-4 sm:gap-6">
+            <Link to="/privacy-policy" className="hover:text-[#c9a84c] transition-colors">Privacy Policy</Link>
+            <Link to="/terms" className="hover:text-[#c9a84c] transition-colors">Terms of Service</Link>
+            <Link to="/delete-account" className="hover:text-[#c9a84c] transition-colors">Delete Account</Link>
           </div>
         </div>
       </div>
