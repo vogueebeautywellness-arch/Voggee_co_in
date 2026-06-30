@@ -91,7 +91,7 @@ export default function CustomerPage() {
               <div className="relative w-full max-w-[340px]">
                 <div className="absolute inset-0 bg-[#c9a84c]/20 rounded-3xl -rotate-6 scale-102 -z-10 shadow-lg"></div>
                 <img
-                  src="/voguee_app_mockup.png"
+                  src="/voggee_app_mockup.png"
                   alt="voguee Mobile App Mockup"
                   className="w-full h-auto rounded-3xl object-cover shadow-2xl border-4 border-white"
                 />
